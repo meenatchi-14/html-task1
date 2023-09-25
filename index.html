@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+ #container{
+    border: 3px solid black;
+    height: 580px;
+    width: 900px;
+    margin: 20px;
+    display: grid;
+ }
+ .header{
+    text-align: center;
+ }
+ .main{
+    border: 2px solid black;
+    font-size:bold;
+    height: 350px;
+    width: 800px;
+    margin: 30px;
+
+
+    
+ }
+ img{
+    text-align: left;
+    margin:50px;
+    height: 250px;
+    width: 250px;
+ }
+ .sidebar{
+margin: 20px;
+    
+ }
+ button{
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    position: center;
+ }
+</style>
+</head>
+<body>
+<div id="container">
+<div class="header m-2">
+    <h1><b>Event-1</b></h1><br>
+    <h4>Number of available seats:23</h4><br>
+</div>
+<div class="main row  ">
+        <div class= "col image"  > 
+            <img src="/seats.jpg " alt="seats"> 
+        </div>
+        <fieldset class="col sidebar ">
+            <form  >
+            <div >
+            <label for="name" class="label-style mb-0">Name:</label>
+            <input type="text" placeholder="Enter your name" required><br><br>
+            <label for="mail" class="label-style mb-0">Email:</label>
+            <input class="form" name="email" placeholder="enter mail id" type="email"><br><br>
+                <label for="phone-no" class="label-style mb-0">Phone no:</label>
+           
+            <input type="number" placeholder="Enter your phone-no"><br><br>
+            <label for="number" class="label-style mb-0">Number of seats:</label>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select><br><br>
+              <label for="number" class="label-style mb-0">Number of attendees:</label>
+              <input type="number" placeholder="Enter the no of attendee"><br><br>
+        
+              <button >Submit</button>
+            <button>clear</button>
+    
+        </form>
+        </fieldset>
+
+</div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>
